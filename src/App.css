@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-poppins: Poppins, sans-serif;
+}
+
+.inverted-radius-box {
+  clip-path: polygon(
+    20px 0%, 180px 0%, 100% 20px,
+    100% 180px, 180px 100%,
+    20px 100%, 0% 180px,
+    0% 20px
+  );
+}
